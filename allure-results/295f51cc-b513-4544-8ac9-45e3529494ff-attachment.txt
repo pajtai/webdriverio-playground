@@ -1,0 +1,4 @@
+16:39:25.723 COMMAND: POST /url - {"url":"http://webdriver.io"}
+
+16:39:30.558 RESULT: null
+

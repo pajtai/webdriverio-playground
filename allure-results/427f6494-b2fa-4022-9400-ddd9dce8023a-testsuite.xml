@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1461282018775" stop="1461282023817">
+	<name>my awesome website</name>
+	<title>my awesome website</title>
+	<test-cases>
+		<test-case start="1461282018776" stop="1461282023975" status="passed">
+			<name>should do some chai assertions</name>
+			<title>should do some chai assertions</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="firefox"/>
+				<parameter kind="environment-variable" name="baseUrl" value="http://localhost"/>
+				<parameter kind="environment-variable" name="spec files" value="/Users/pajtai/git/driver/test/specs/testTest.js"/>
+			</parameters>
+			<steps>
+				<step start="1461282013383" stop="1461282018595" status="passed">
+					<name>before first test</name>
+					<title>before first test</title>
+					<attachments>
+						<attachment title="Selenium log" source="d26ce201-0a1e-4cf3-90dd-0d981cb8ac0f-attachment.txt" type="text/plain" size="746"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1461282018777" stop="1461282023765" status="passed">
+					<name>url [&quot;http://webdriver.io&quot;]</name>
+					<title>url [&quot;http://webdriver.io&quot;]</title>
+					<attachments>
+						<attachment title="Selenium log" source="1a34f197-8c6f-4fe7-8fcb-41c8eb6b963e-attachment.txt" type="text/plain" size="92"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1461282023773" stop="1461282023812" status="passed">
+					<name>getTitle []</name>
+					<title>getTitle []</title>
+					<attachments>
+						<attachment title="Selenium log" source="c559ce44-04f7-4d32-8dcb-754851791b2a-attachment.txt" type="text/plain" size="121"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1461282023974" stop="1461282023975" status="passed">
+					<name>after last command</name>
+					<title>after last command</title>
+					<attachments>
+						<attachment title="Selenium log" source="0f113a0c-3a1a-4963-9ae7-f12b69f3195c-attachment.txt" type="text/plain" size="63"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

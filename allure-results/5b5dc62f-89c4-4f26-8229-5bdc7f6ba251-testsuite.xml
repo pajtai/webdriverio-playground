@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1461281639825" stop="1461281648424">
+	<name>my awesome website</name>
+	<title>my awesome website</title>
+	<test-cases>
+		<test-case start="1461281639825" stop="1461281648703" status="broken">
+			<name>should do some chai assertions</name>
+			<title>should do some chai assertions</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="firefox"/>
+				<parameter kind="environment-variable" name="baseUrl" value="http://localhost"/>
+				<parameter kind="environment-variable" name="spec files" value="/Users/pajtai/git/driver/test/specs/testTest.js"/>
+			</parameters>
+			<steps>
+				<step start="1461281591194" stop="1461281639727" status="passed">
+					<name>before first test</name>
+					<title>before first test</title>
+					<attachments>
+						<attachment title="Selenium log" source="57f3c79d-1d7e-4bda-841a-e9fc89ec72f8-attachment.txt" type="text/plain" size="746"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1461281639827" stop="1461281648036" status="passed">
+					<name>url [&quot;http://webdriver.io&quot;]</name>
+					<title>url [&quot;http://webdriver.io&quot;]</title>
+					<attachments>
+						<attachment title="Selenium log" source="dfd76191-72f8-47a5-948e-4691d15cc5a5-attachment.txt" type="text/plain" size="92"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1461281648046" stop="1461281648416" status="passed">
+					<name>getTitle []</name>
+					<title>getTitle []</title>
+					<attachments>
+						<attachment title="Selenium log" source="1d9821bb-9f1f-49b9-9587-74481a5f1eb4-attachment.txt" type="text/plain" size="121"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1461281648703" stop="1461281648703" status="passed">
+					<name>after last command</name>
+					<title>after last command</title>
+					<attachments>
+						<attachment title="Selenium log" source="4d059347-99d2-4ee4-a2bd-6407fdaf122d-attachment.txt" type="text/plain" size="63"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Cannot read property &apos;be&apos; of undefined</message>
+				<stack-trace>TypeError: Cannot read property &apos;be&apos; of undefined
+    at Context.&lt;anonymous&gt; (/Users/pajtai/git/driver/test/specs/testTest.js:4:38)
+    at /Users/pajtai/.nvm/versions/node/v5.10.1/lib/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
