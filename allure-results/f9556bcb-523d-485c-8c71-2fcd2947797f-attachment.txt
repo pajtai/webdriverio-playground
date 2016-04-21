@@ -1,4 +1,0 @@
-16:39:30.574 COMMAND: GET /title - {}
-
-16:39:31.023 RESULT: "WebdriverIO - Selenium 2.0 javascript bindings for nodejs"
-
